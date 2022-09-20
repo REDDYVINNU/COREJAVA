@@ -1,13 +1,14 @@
 package corejava;
 
-public class NsNs {
+public class av {
+
 	int cost;
 	String bike_name;
 	int bike_Cc;
 	int no_of_gear;
 	String color;
 	
-	NsNs(int price,String vechile_name,int engine_Cc,int gear){
+	av(int price,String vechile_name,int engine_Cc,int gear){
 		
 		this.cost=price;
 		this.bike_name=vechile_name;
@@ -15,7 +16,7 @@ public class NsNs {
 		this.no_of_gear=gear;
 		this.bikedetails();
 	}	
-	NsNs(){
+	av(){
 		color="red";
 		this.c();
 	}
@@ -34,4 +35,7 @@ public class NsNs {
 	
 	}
 
-}
+
+	}
+
+

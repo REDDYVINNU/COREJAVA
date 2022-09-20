@@ -1,11 +1,12 @@
 package corejava;
 
-public class NsBike extends NsNs {
+public class av1 extends av{
+
 	int bike_num;
 	String owner_name;
 	String speed_checkup;
 	
-	NsBike(int bike_number,String name,String check){
+	av1(int bike_number,String name,String check){
 		
 		super(150000, "enfield", 350, 5);
 		bike_num=bike_number;
@@ -14,7 +15,7 @@ public class NsBike extends NsNs {
 		this.speed();
 		
 	}
-	NsBike(){
+	av1(){
 		super();
 	}
 	
@@ -25,9 +26,10 @@ public class NsBike extends NsNs {
 	}
 
 	public static void main(String[] args) {
-		NsBike obj = new NsBike(1332, "durga", "150km");
-		NsBike ohg = new NsBike();
+		av1 obj = new av1(1332, "durga", "150km");
+		av1 ohg = new av1();
 
 	}
+
 
 }
