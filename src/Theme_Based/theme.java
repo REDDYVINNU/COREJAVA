@@ -1,4 +1,4 @@
-package corejava;
+package Theme_Based;
 class NS{
 	void cost() {
 		System.out.println("the bike cost is : 50000");

@@ -1,4 +1,4 @@
-package corejava;
+package Assignment;
 import java.util.Scanner;
 class bikes{
 	String name;

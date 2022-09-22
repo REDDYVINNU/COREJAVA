@@ -1,4 +1,4 @@
-package corejava;
+package Assignment;
 import java.util.Scanner;
 class electronices{
 	String name;
