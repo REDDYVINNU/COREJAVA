@@ -16,9 +16,7 @@ public class Linked_Iterator_using_collection {
 		System.out.println(ls);
 		ListIterator <String> h = ls.listIterator();
 		while(h.hasNext()) {
-			
 			System.out.println(h.next());
-			
 		}
 		System.out.println();
 		while(h.hasPrevious()) {
